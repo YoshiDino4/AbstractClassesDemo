@@ -58,6 +58,7 @@ namespace ConsoleUI
             {
              Console.WriteLine($"Make: {vehicle.Make}  Model: {vehicle.Model}  Year: {vehicle.Year}");
              vehicle.DriveVirtual();
+             vehicle.DriveAbstract();
              Console.WriteLine("\n");
             }
 
